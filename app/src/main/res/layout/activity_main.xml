@@ -9,12 +9,18 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
     <ImageView
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:src="@drawable/starbucks_logo001"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="120dp"/>
+        android:src="@drawable/starbucks_logo001" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -68,9 +74,8 @@
         android:layout_weight="1"
         android:text="로그인"/>
 
+
+
     </LinearLayout>
-
-
-
 
 </LinearLayout>
